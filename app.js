@@ -332,48 +332,85 @@ console.log('do you need anything else')
 
 
 /*==================================== Question No 21 =========================================
-
+Find even number from array and their length
 ======================================= Answer =====================================*/
+/*let arr = [1,2,3,4,6];
+let even = [];
+for(let i = 0; i < arr.length;i++){
+    if(arr[i] % 2 === 0){
+        even.push(arr[i])
+    }
+}
+console.log(even);
+let evenNumberLength = even.length;
+console.log(evenNumberLength);
+*/
 
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 22 =========================================
+Find odd Number from array and show them in array and their length also
 ======================================= Answer =====================================*/
+/*let arr = [1,2,3,5,7,4,6];
+let oddNumber = [];
+let lengthOfOddNumbers = '';
+for(let item of arr){
+    if(item % 2 !== 0){
+        oddNumber.push(item);
+        lengthOfOddNumbers =  oddNumber.length;
+    }
+}
+console.log(oddNumber);
+console.log(lengthOfOddNumbers)*/
 
 
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 23 =========================================
+Find odd numbers, even numbers and their length from an array
 ======================================= Answer =====================================*/
+/* let arr = [1,2,3,5,7,4,6];
+let oddNumber = [];
+let lengthOfOddNumbers = '';
+let evenNumbers = [];
+let evenNumberLength = '';
+for(let num of arr){
+    if(num % 2 === 0){
+        evenNumbers.push(num);
+        evenNumberLength = evenNumbers.length;
+    }
+    else{
+        oddNumber.push(num);
+        lengthOfOddNumbers = oddNumber.length;
+    }
+}
+console.log(evenNumberLength);
+console.log(evenNumbers);
+console.log(oddNumber);
+console.log(lengthOfOddNumbers)
+*/
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 24 =========================================
+Print table of any given number
 ======================================= Answer =====================================*/
+/* 
+let num = 5;
+for(let i = 1;i<=10;i++){
+    console.log(`${num}*${i} = ${num * i}`)
+}
+    */
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 25 =========================================
+Find largest number of array
 ======================================= Answer =====================================*/
-
-
-
-
-
+// let arr = [5,3,2,554,6,7,88];
+// let largest = arr[0];
+// for(let num of arr){
+//     if(num > largest) {
+//         largest = num
+//     }
+// }
+// console.log(largest)
 /*==================================== Question No 1 =========================================
 https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
 ======================================= Answer =====================================*/
