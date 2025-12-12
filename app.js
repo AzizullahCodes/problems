@@ -254,41 +254,84 @@ vowel extractor
 
 
 /*==================================== Question No 17 =========================================
+Find missing number [1,3,4,5,6,7,8]
+======================================= Answer =====================================*/
+// let arr = [1,3,4,5,6,7,8];
+// let missingNumber = '';
+// for(let i = 1 ; i <=8;i++){
+// if(arr.indexOf(i) === -1){
+//     // console.log(i)
+//     missingNumber = missingNumber + i
+// }
+// }
 
+// console.log(missingNumber)
+
+
+/*==================================== Question No 18 =========================================
+find missing number second method by double for loop
 ======================================= Answer =====================================*/
 
+// let arr = [1,2,4,5,6,7,8];
+// let total = 0;
+// for(let i = 1;i<=8;i++){
+//     total = total + i;
+//     console.log(i)
+// }
+// console.log(total);
+// let sum = 0;
+// for(let j = 0;j < arr.length;j++)
+// {
+//     sum = sum + arr[j]
+// }
 
+// console.log(sum)
+// let missing = total - sum;
+// console.log(missing)
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 19 =========================================
+Find vowel and consonants and their length  let str = 'A lazy dog jumps over the fox'
 ======================================= Answer =====================================*/
+/*let str = 'A lazy dog jumps over the fox';
+str = str.replaceAll(' ','');
+str = str.toLowerCase();
+console.log(str,str.length)
+let vowel = '';
+let consonants = '';
+for(let i = 0;i < str.length;i++){
+    if(str[i] === 'a'|| str[i] === 'e'||str[i] === 'i' || str[i] === 'o' || str[i] === 'u')
+    {
+        vowel = vowel + str[i]
+    }
+    else{
+        consonants = consonants + str[i]
+    }
+}
+console.log(vowel);
+console.log(consonants);
+let vowelLength = vowel.length;
+let consonantsLength = consonants.length;
+console.log(vowelLength);
+console.log(consonantsLength)
+*/
 
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 20 =========================================
+check settimeout if give 0 in timeout (code run sychronously when we give zero in timeout)
 ======================================= Answer =====================================*/
+/*console.log('bring juice');
+console.log('bring biscuits');
+setTimeout(() => {
+    
+    console.log('bring sweet form nearby shop')
+}, 0);
+console.log('he has gone for taking sweets');
+console.log('do you need anything else')
+*/
 
 
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 21 =========================================
 
 ======================================= Answer =====================================*/
 
