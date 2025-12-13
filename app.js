@@ -411,51 +411,100 @@ Find largest number of array
 //     }
 // }
 // console.log(largest)
-/*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
+
+
+/*==================================== Question No 26 =========================================
+add odd numbers of array by using for loop
 ======================================= Answer =====================================*/
+/*
+let arr = [1,2,3,4,5];
+function addOddNumbers(array){
+    let odd = [];
+    for(let i = 0;i < array.length;i++){
+        if(array[i] % 2 !== 0){
+            odd.push(array[i])
+           
+        }
 
-/*==================================== Question No 1 =========================================
+    }
+   let sum = 0;
+   for(let i = 0;i < odd.length;i++){
+    sum = sum + odd[i]
+   }
+console.log(sum)
+}
+addOddNumbers(arr)
 
+
+*/
+
+
+/*==================================== Question No 27 =========================================
+Add all the even number of array by for loop
 ======================================= Answer =====================================*/
+/*
+let arr = [1, 2, 3, 4, 5, 6];
+function addEvenNumbers(array){
+    let even = [];
+    let sum = 0;
+    for(let num of array){
+        if(num % 2 === 0){
+            even.push(num);
+           
+        }
+       
+    }
+ console.log(even);
+//  for loop on even number for adding 
+for(let i = even.length-1;i >= 0; i--){
+    sum = sum + even[i]
+}console.log(sum)
+}
+
+addEvenNumbers(arr)
+*/
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 28 =========================================
+check whether number is palindrome or not
 ======================================= Answer =====================================*/
+/*
+let number = 121;
+number = number.toString();
+function checkPalindrome(num){
+    var reverse = '';
+    for(let i = num.length-1;i>=0;i--){
+    //   console.log(num[i])
+    reverse = reverse + num[i]
+       
+    }
+     if(reverse === number){
+        console.log(`${number} is palindrome`)
+     }
+     else{
+         console.log(`${number} is not palindrome`)
+      }
+
+ }
+
+checkPalindrome(number)
 
 
+*/
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 29 =========================================
+Reverse a number by for loop
 ======================================= Answer =====================================*/
+/*
+let number = 12345;
+number = number.toString();
+let reverse = '';
+for(let i = number.length - 1; i >=0;i--)
+    reverse = reverse + number[i]
 
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
+console.log(reverse)
+*/
 
 
 
