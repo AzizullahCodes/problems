@@ -560,7 +560,7 @@ You need to find how many numbers are positive, how many are negative, and how m
 Then, calculate the fraction (ratio) of each type in the list and print it.
 Print the fractions with 6 decimal places.
 ======================================= Answer =====================================*/
-let array = [-4, 3, -9, 0, 4, 1]
+/* let array = [-4, 3, -9, 0, 4, 1]
 let positive = [];
 let negative = [];
 let zero = [];
@@ -585,31 +585,83 @@ let zeroRatio = zero.length /array.length;
     zeroRatio = zeroRatio.toFixed(6)
 console.log(positiveRatio);
 console.log(negativeRatio);
-console.log(zeroRatio)
+console.log(zeroRatio) */
+
+
+
+/*==================================== Question No 33 =========================================
+Problem: soution by function
+You are given a list (array) of numbers.
+You need to find how many numbers are positive, how many are negative, and how many are zero.
+
+Then, calculate the fraction (ratio) of each type in the list and print it.
+Print the fractions with 6 decimal places.
+======================================= Answer =====================================*/
+/* let array = [-4, 3, -9, 0, 4, 1];
+function ratio(array){
+    let positive = [];
+    let negative = [];
+    let zero = [];
+    for(let i = 0;i < array.length;i++){
+        if(array[i] >0){
+            positive.push(array[i])
+        }
+        else if(array[i] < 0){
+            negative.push(array[i])
+        }
+        else{
+            zero.push(array[i])
+        }
+        
+    }
+    var positiveRatio = (positive.length / array.length).toFixed(6);
+        
+            var negativeRatio = (negative.length / array.length).toFixed(6);
+             
+                var zeroRatio = (zero.length / array.length).toFixed(6);
+                console.log(positiveRatio);
+                console.log(negativeRatio);
+                console.log(zeroRatio)
+                
+
+}
+ratio(array) */
+
+
 
 /*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
-======================================= Answer =====================================*//*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
+/* let array = [-4, 3, -9, 0, 4, 1];
 
+function ratio(arr) {
+    let posCount = 0;
+    let negCount = 0;
+    let zeroCount = 0;
 
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) posCount++;
+        else if (arr[i] < 0) negCount++;
+        else zeroCount++;
+    }
 
+    // Return as an object
+    return {
+        positiveRatio: (posCount / arr.length).toFixed(6),
+        negativeRatio: (negCount / arr.length).toFixed(6),
+        zeroRatio: (zeroCount / arr.length).toFixed(6)
+    };
+}
 
+// Store the returned object
+let ratios = ratio(array);
 
-/*==================================== Question No 1 =========================================
+// Access the values
+console.log(ratios.positiveRatio);
+console.log(ratios.negativeRatio);
+console.log(ratios.zeroRatio);
 
-======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
+ */
 
 
 
