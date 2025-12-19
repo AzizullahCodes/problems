@@ -510,22 +510,48 @@ console.log(reverse)
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 30 =========================================
+Diagonal Difference
 ======================================= Answer =====================================*/
+// let arr = [
+//     [5,2,8],
+//     [2,6,1],
+//     [8,4,7]
+// ]
+// function diagonalDifference(arr){
+//     let leftSum = 0;
+//     let rightSum = 0;
+//     for(let i = 0;i < arr.length;i++){
+//         leftSum = leftSum + arr[i][i];
+//         rightSum = rightSum + arr[i][arr.length-1-i];
+
+//     }
+//     let result = Math.abs(rightSum-leftSum);
+//     return result;
+// }
+// let ans = diagonalDifference(arr)
+// console.log(ans)
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 31 =========================================
+alice bob function hacker rank pblm
 ======================================= Answer =====================================*/
-
-
-
-
-
+/* function aliceBob(a,b){
+let alic = 0;
+let bb = 0;
+for(let i = 0;i < a.length;i++){
+    if(a[i] > b[i]){alic++;}
+    else if(a[i] < b[i]){
+        bb++;
+    }
+}
+return [alic,bb]
+}
+let alice = [5,3,17];
+let bob = [3,6,27];
+let ans = aliceBob(alice,bob);
+console.log(ans)
+ */
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
