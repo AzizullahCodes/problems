@@ -552,13 +552,40 @@ let bob = [3,6,27];
 let ans = aliceBob(alice,bob);
 console.log(ans)
  */
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 32 =========================================
+Problem:
+You are given a list (array) of numbers.
+You need to find how many numbers are positive, how many are negative, and how many are zero.
 
+Then, calculate the fraction (ratio) of each type in the list and print it.
+Print the fractions with 6 decimal places.
 ======================================= Answer =====================================*/
+let array = [-4, 3, -9, 0, 4, 1]
+let positive = [];
+let negative = [];
+let zero = [];
+for(let i = 0;i < array.length; i++){
+    if(array[i] > 0){
+        positive.push(array[i])
+    }
+    else if(array[i] < 0){
+        negative.push(array[i])
+    }
+    else{zero.push(array[i])}
+}
 
-
-
-
+console.log(positive);
+console.log(negative);
+console.log(zero);
+let positiveRatio = positive.length / array.length;
+    positiveRatio = positiveRatio.toFixed(6)
+let negativeRatio = negative.length / array.length;
+   negativeRatio = negativeRatio.toFixed(6);
+let zeroRatio = zero.length /array.length;
+    zeroRatio = zeroRatio.toFixed(6)
+console.log(positiveRatio);
+console.log(negativeRatio);
+console.log(zeroRatio)
 
 /*==================================== Question No 1 =========================================
 https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
