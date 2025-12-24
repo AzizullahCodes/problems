@@ -141,18 +141,18 @@ count the occurence of elements in array by forEach
 /*==================================== Question No 9 =========================================
 flatten array by for loop
 ======================================= Answer =====================================*/
-// let arr = [1,2,[3,4],5,[6,7],8];
-// let result = [];
-// for(let i = 0;i < arr.length;i++){
-//     if(Array.isArray(arr[i])){
-//         for(let j = 0 ; j < arr[i].length;j++){
-//             result.push(arr[i][j])
-//         }
-//     }
-//     else{ result.push(arr[i])}
-// }
+/* let arr = [1,2,[3,4],5,[6,7],8];
+let result = [];
+for(let i = 0;i < arr.length;i++){
+    if(Array.isArray(arr[i])){
+        for(let j = 0 ; j < arr[i].length;j++){
+            result.push(arr[i][j])
+        }
+    }
+    else{ result.push(arr[i])}
+}
 
-// console.log(result)
+console.log(result) */
 
 
 /*==================================== Question No 10 =========================================
@@ -272,22 +272,22 @@ Find missing number [1,3,4,5,6,7,8]
 find missing number second method by double for loop
 ======================================= Answer =====================================*/
 
-// let arr = [1,2,4,5,6,7,8];
-// let total = 0;
-// for(let i = 1;i<=8;i++){
-//     total = total + i;
-//     console.log(i)
-// }
-// console.log(total);
-// let sum = 0;
-// for(let j = 0;j < arr.length;j++)
-// {
-//     sum = sum + arr[j]
-// }
+/* let arr = [1,2,4,5,6,7,8];
+let total = 0;
+for(let i = 1;i<=8;i++){
+    total = total + i;
+    console.log(i)
+}
+console.log(total);
+let sum = 0;
+for(let j = 0;j < arr.length;j++)
+{
+    sum = sum + arr[j]
+}
 
-// console.log(sum)
-// let missing = total - sum;
-// console.log(missing)
+console.log(sum)
+let missing = total - sum;
+console.log(missing) */
 
 /*==================================== Question No 19 =========================================
 Find vowel and consonants and their length  let str = 'A lazy dog jumps over the fox'
@@ -629,8 +629,13 @@ ratio(array) */
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 34 =========================================
+Problem: solution by function and returning an object
+You are given a list (array) of numbers.
+You need to find how many numbers are positive, how many are negative, and how many are zero.
 
+Then, calculate the fraction (ratio) of each type in the list and print it.
+Print the fractions with 6 decimal places.
 ======================================= Answer =====================================*/
 /* let array = [-4, 3, -9, 0, 4, 1];
 
