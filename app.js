@@ -670,26 +670,50 @@ console.log(ratios.zeroRatio);
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 35 =========================================
+Double Character Checker
+if double character found in string than stop for loop like 'nabeel' 
+when for loop go on ee than it should break
+======================================= Answer =====================================*/
+/* let str = 'nabeel';
+for(let i = 0;i < str.length;i++){
+    // console.log(str[i]) 
+    if(str[i] == str[i - 1]){
+        console.log('double character found');
+        break;
+    }
+} */
 
+
+
+/*==================================== Question No 40 =========================================
+Full Name generate by nested for Loop
 ======================================= Answer =====================================*/
 
+/* let arrOne = ['Syed','Muhammad','Abdul'];
+let arrTwo = ['Shahzaib','Ahmad','Qadir'];
+for(let i = 0 ; i < arrOne.length; i++){
+    // console.log(arrOne[i])
+
+    for(let j = 0; j < arrTwo.length;j++){
+        // console.log(arrTwo[j])
+          console.log(arrOne[i] + ' ' + arrTwo[j])
+    }
+  
+} */
 
 
 
-/*==================================== Question No 1 =========================================
+
+/*==================================== Question No 41 =========================================
 
 ======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
+var arr = ['a','h','m','e','d'];
+for(var i = 0; i < arr.length; i++){
+    console.log(arr);
+    var lastItem = arr.pop();
+    arr.unshift(lastItem)
+}
 
 
 
