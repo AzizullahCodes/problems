@@ -705,42 +705,60 @@ for(let i = 0 ; i < arrOne.length; i++){
 
 
 
-/*==================================== Question No 41 =========================================
-
+/*==================================== Question No 36 =========================================
+Array Rotation Using pop & unshift
 ======================================= Answer =====================================*/
-var arr = ['a','h','m','e','d'];
+/* var arr = ['a','h','m','e','d'];
 for(var i = 0; i < arr.length; i++){
     console.log(arr);
     var lastItem = arr.pop();
+    // console.log(lastItem)
     arr.unshift(lastItem)
 }
+ */
 
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 37 =========================================
+create object dynamically
 ======================================= Answer =====================================*/
 
+/* let input = prompt('How many properties should have an object');
+let obj = {};
+for(let i = 1; i <= input;i++){
+    var properties = prompt('enter property  no ' + i);
+    var value = prompt('enter value of property no ' + i);
+    obj[properties] = value
+}
+console.log(obj) */
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 38 =========================================
+create array dynamically
 ======================================= Answer =====================================*/
+/* let num = prompt('how many element should have an array');
+let arr= [];
+for(let i = 1; i  <= num; i++){
+    var properties = prompt('enter element ' + i);
+    arr.push(properties)
+}
+console.log(arr) */
 
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 39 =========================================
+Leetcode 1st problem return always hello
 ======================================= Answer =====================================*/
-
-
+/* function abc(){
+    return function(){
+        return 'hello world'
+    }
+}
+let ans = abc('good');
+console.log(ans())
+ */
 
 
 
