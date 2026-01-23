@@ -762,17 +762,37 @@ console.log(ans())
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 40 =========================================
+Leetcode 2nd problem counter (increment)
 ======================================= Answer =====================================*/
+/* function counting(start){
+    let count = start;
+    return function(){
+      return  count++;
+    }
+}
+const result = counting(5);
+console.log(result());
+console.log(result());
+console.log(result());
+console.log(result()) */
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 41 =========================================
+leetcode 2nd problems counter (decrement on every call)
 ======================================= Answer =====================================*/
+/* function decresing(num){
+    let count = num;
+    return function(){
+        return count++;
+    }
 
-
+}
+let ans  = decresing(5);
+console.log(ans());
+console.log(ans());
+console.log(ans())
+ */
 
 
 
