@@ -796,29 +796,80 @@ console.log(ans())
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 42 =========================================
+function ToBe and notToBe
+======================================= Answer =====================================*/
+// function testing(val){
+//     return {
+//         toBe : (value)=>{
+//             if(val === value)
+//             {return('val and value are equal so answer is true')}
+//             else{
+//                 return('val and value are not equal so answer is false')
+//             }},
+//        notToBe :(value)=>{
+//         if(val !== value){
+//             return('val is not equal to value so ans is true')
+//         }
+//         else{ return('val and values are equal to each other so answer is wrong')}
+//        }
+//         }
+//     }
 
+
+// // console.log(testing(4).toBe(42))
+// console.log(testing(4).notToBe(2))
+
+
+
+
+/*==================================== Question No 43 =========================================
+check type of value given to function
 ======================================= Answer =====================================*/
 
+/* function checking(num){
+    if(typeof num === 'number'){
+        return true
+    }
+    else {
+        return false
+    }
+
+}
+let ans = checking('5');
+console.log(ans) */
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 44 =========================================
+check undefined and null value
 ======================================= Answer =====================================*/
+/* function checing(value){
+    return {
+        firstCondition: (value)=>{
+            if(value !== null)
+            {return true}
+            else{
+                return 'value is null'
+            }
 
+        },
+        secondCondition : (value)=>{
+            if(value !== undefined){
+            return 'true'
+            }
+            else{
+                return 'value is undefined'
+            }
+        }
+    }
+}
+let value = null;
+console.log(checing().firstCondition(value));
+console.log(checing().firstCondition(value))
 
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
+console.log(checing().secondCondition())
+ */
 
 /*==================================== Question No 1 =========================================
 
