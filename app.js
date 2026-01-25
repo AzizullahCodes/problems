@@ -871,13 +871,47 @@ console.log(checing().firstCondition(value))
 console.log(checing().secondCondition())
  */
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 45 =========================================
+counter/increment /decrement/reset in an object leetcode four problem
 ======================================= Answer =====================================*/
 
+function counterFunction(val){
+    let currentVal = val;
+    return {
+        increment : ()=>{
+            return currentVal++;
 
-
-
+        },
+        // decrment 
+        decrement : ()=>{
+                
+                
+                    return currentVal--
+            
+               
+        },
+        // reset 
+        reset : ()=>{
+            return currentVal = val
+        }
+    }
+}
+let ans = counterFunction(0);;
+console.log(ans.increment())
+console.log(ans.increment())
+console.log(ans.decrement())
+function up(){
+    // ans.increment()
+    document.getElementById('display').innerHTML = ans.increment()
+}
+function down(){
+    // ans.decrement();
+    document.getElementById('display').innerHTML = ans.decrement()
+}
+function reset(){
+    // ans.reset()
+    document.getElementById('display').innerHTML = ans.reset()
+}
 
 
 /*==================================== Question No 1 =========================================
