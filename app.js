@@ -875,7 +875,7 @@ console.log(checing().secondCondition())
 counter/increment /decrement/reset in an object leetcode four problem
 ======================================= Answer =====================================*/
 
-function counterFunction(val){
+/* function counterFunction(val){
     let currentVal = val;
     return {
         increment : ()=>{
@@ -912,26 +912,42 @@ function reset(){
     // ans.reset()
     document.getElementById('display').innerHTML = ans.reset()
 }
+ */
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 46 =========================================
+leet code-5 transformation of an array 
 ======================================= Answer =====================================*/
+/* let arr  = [1,2,3,4,5];
+function transformation(array,n){
+console.log(array);
+let transformArr = [];
+for(let i = 0; i < array.length;i++){
+transformArr.push(array[i]*n)
+}
+console.log(transformArr)
+}
+transformation(arr,5) */
 
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 47 =========================================
+leet code-6 filter an array elements
 ======================================= Answer =====================================*/
+/* let arr = [10,20,30,40,50,60,70];
+let ans = arr.filter((item)=>{
+    return item > 30
+})
+console.log(ans)
+ */
 
+// by traditional for loop
 
-
-
-
+/* let arr = [10,20,30,40,50,60,70];
+let newArr = [];
+for(let i = 0;i < arr.length;i++){
+    if(arr[i] > 30){
+        newArr.push(arr[i])
+    }
+}
+console.log(newArr) */
 
 /*==================================== Question No 1 =========================================
 
