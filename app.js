@@ -949,13 +949,17 @@ for(let i = 0;i < arr.length;i++){
 }
 console.log(newArr) */
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 48 =========================================
+leetcode-7 problem 7 [reduce function]
 ======================================= Answer =====================================*/
+/* let array = [1,2,3,4,5];
+let initial = 0;
+let ans = array.reduce((current, next)=>{
+    return current + next
+},initial)
 
 
-
-
+console.log(ans) */
 
 
 
