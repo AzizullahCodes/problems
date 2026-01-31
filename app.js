@@ -963,21 +963,60 @@ console.log(ans) */
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 49 =========================================
+composition functioin (i could not understood it)  leet cod 8 problem
 ======================================= Answer =====================================*/
 
+/* const functions = [
+  x => x + 1,
+  x => x * x,
+  x => 2 * x
+];
+
+const x = 4;
+
+var compose = function(functions) {
+    return function(x) {
+        let result = x;
+
+        for (let i = functions.length - 1; i >= 0; i--) {
+            result = functions[i](result);
+        }
+
+        return result;
+    };
+};
+
+// Step 1: function banao
+const composedFunction = compose(functions);
+
+// Step 2: number pass karo
+console.log(composedFunction(x));
+
+
+ */
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 50 =========================================
+Determine the length of arguments that are passed in function
+leetcode 9th problem
 ======================================= Answer =====================================*/
+/* function abc(...rest){
+    console.log(rest.length)
+
+}
+abc('Aziz',30,'Karachi')
+ */
 
 
+// second way 
 
+/* function abc(){
+    console.log(arguments.length)
 
+}
+abc('Aziz',30,'Karachi') */
 
 /*==================================== Question No 1 =========================================
 
