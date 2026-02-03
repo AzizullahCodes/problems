@@ -999,8 +999,8 @@ console.log(composedFunction(x));
 
 
 /*==================================== Question No 50 =========================================
-Determine the length of arguments that are passed in function
-leetcode 9th problem
+length of arguments knowing 
+leetcode problem
 ======================================= Answer =====================================*/
 /* function abc(...rest){
     console.log(rest.length)
@@ -1018,30 +1018,46 @@ abc('Aziz',30,'Karachi')
 }
 abc('Aziz',30,'Karachi') */
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 51 =========================================
+leetcode problem 11 
+memoize function , 
+(i could not understood its logic)
 ======================================= Answer =====================================*/
+/* var once = function(fn) {
+    let flag = false;
+
+    return function() {
+        if (flag === false) {
+            flag = true;
+            return fn();
+        }
+    }
+}
+
+function sayHello() {
+    return "hello";
+}
+
+let ans = once(sayHello);
+
+console.log(ans());
+console.log(ans()); */
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
-======================================= Answer =====================================*//*==================================== Question No 1 =========================================
-
+/*==================================== Question No 52 =========================================
+add two promises 
+leetcode problem 2723
 ======================================= Answer =====================================*/
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
+/* const addTwoPromise = async function(promiseOne,promiseTwo) {
+    const a = await promiseOne;
+    const b = await promiseTwo;
+    return a + b;
+    
+}
+addTwoPromise(Promise.resolve(2),Promise.resolve(3)).then(console.log)
+ */
 
 
 /*==================================== Question No 1 =========================================
