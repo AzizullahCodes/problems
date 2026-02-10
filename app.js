@@ -137,7 +137,6 @@ count the occurence of elements in array by forEach
 // console.log(count)
 
 
-
 /*==================================== Question No 9 =========================================
 flatten array by for loop
 ======================================= Answer =====================================*/
@@ -1060,28 +1059,46 @@ addTwoPromise(Promise.resolve(2),Promise.resolve(3)).then(console.log)
  */
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 53 =========================================
+count the occurence of letter in string
 ======================================= Answer =====================================*/
+/* let str = 'aabbbbcdd';
+let obj = {};
+for(let i = 0;i < str.length;i++){
+    // console.log(str[i])
+    let element = str[i];
+    if(obj[element]){
+        obj[element] = obj[element] + 1
+    }
+    else{
+        obj[element] = 1
+    }
+}
+console.log(obj) */
 
 
 
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 54 =========================================
+double space found problem
 ======================================= Answer =====================================*/
+/* let str = 'ahm  d';
+let spc = false;
+for(let i = 0;i < str.length;i++){
+    // console.log(str[i]) 
+    if(str[i] == ' ' && str[i - 1] == ' '){
+        spc = true;
+        console.log(str[i])
+        break
+    }
+}
 
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
+if(spc){
+    console.log('space found')
+}
+else{
+    console.log('space not found')
+}
+ */
 
 
 /*==================================== Question No 1 =========================================
