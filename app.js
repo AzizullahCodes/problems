@@ -1101,10 +1101,21 @@ else{
  */
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 55 =========================================
+count frequency of element
 ======================================= Answer =====================================*/
-
+// let fruits = ['apple','banana','apple','orange','banana'];
+// let count = {};
+// for(let i = 0; i < fruits.length;i++){
+//   let fruit = fruits[i];
+//   if(count[fruit]){
+//     count[fruit] = count[fruit] + 1
+//   }
+//   else{
+//     count[fruit] = 1
+//   }
+// }
+// console.log(count)
 
 
 
