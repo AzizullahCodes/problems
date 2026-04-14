@@ -1122,11 +1122,18 @@ count frequency of element
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 56 =========================================
+Find maximum length having element of array
 ======================================= Answer =====================================*/
 
-
+/* let str = ['apple','javascript','science','handkerchief'];
+let word = str[0];
+for(let i = 0;i < str.length;i++){
+  if(str[i].length > word.length){
+    word = str[i]
+  }
+}
+console.log(word) */
 
 
 
