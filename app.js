@@ -1137,25 +1137,83 @@ console.log(word) */
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 57 =========================================
+get total salary and running for loop on Date
 ======================================= Answer =====================================*/
+// method 1
+/* const calculateSalary = (from,to,pay)=>{
+    const workingDays = ['Monday','Wednesday','Friday'];
+    const fromDate = new Date(from);
+    const toDate = new Date(to);
+    const eachDayPay = Number(pay);
+    let totalPay = 0;
+    for(let i = fromDate;i <= toDate;i.setDate(i.getDate()+1)){
+        const fullDays = i.toLocaleDateString('en-US',{weekday : 'long'})
+        if(workingDays.includes(fullDays)){
+            totalPay = totalPay + eachDayPay
+        }
+    }
+    console.log('total pay ',totalPay)
+}
+calculateSalary('2026-03-21','2026-04-20','500')
+ */
+
+/* // method 2 
+const calculateSalary = (from,to,pay)=>{
+    let workingDays = [1,3,5];
+    let start = new Date(from);
+    let end = new Date(to);
+    // console.log(start)
+    let total = 0;
+    for(let i = start;i <=end;i.setDate(i.getDate()+1))
+    {
+        // console.log(i)
+        let day = i.getDay()
+        console.log(day)
+        if(workingDays.includes(day))
+        {
+            total = total + pay
+        }
+    }
+    console.log(total)
+
+}
+calculateSalary('2026-03-21','2026-3-31',500)
+
+ */
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 58 =========================================
+Find the element in array having greatest length
 ======================================= Answer =====================================*/
+/* let arr = ['hen','goat','handkerchief','eagle','cat','peacock'];
+let newArr = [];
+for(let i = 0;i < arr.length;i++){
+    console.log(arr[i].length)
+    newArr.push(arr[i].length)
+}
+
+console.log(newArr)
+let maxNumber = Math.max(...newArr);
+console.log(maxNumber)
+let ind = newArr.indexOf(maxNumber);
+console.log(ind);
+let element = arr[ind];
+console.log('the largest lenght having element in an array ', element)
+
+ */
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 59 =========================================
+remove all hen in array
 ======================================= Answer =====================================*/
+/* let arr = ['hen','goat','handkerchief','hen','eagle','cat','hen','peacock'];
+let ans = arr.sort();
+console.log(ans);
+let ind = ans.indexOf('hen');
+console.log(ind)
+ans.splice(ind,3);
+console.log(ans) */
 
 
 
