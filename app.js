@@ -1265,11 +1265,16 @@ final = 15 */
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
-
-
-
-
-
+let arr = [1,2,2,3,4,5,6,4];
+console.log(arr)
+let newArr = [];
+let a = arr[0];
+for(let i = 0;i < arr.length;i++){
+   if(!newArr.includes(arr[i])){
+    newArr.push(arr[i])
+   }
+}
+console.log(newArr)
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
@@ -2013,3 +2018,17 @@ https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-web
 /*==================================== Question No 1 =========================================
 https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
 ======================================= Answer =====================================*/
+
+/* Coding Problems (Logic-based)
+
+Array flatten karna (nested array ko single level)
+Duplicate elements remove karna array se
+String palindrome check
+Two numbers swap karna (jo abhi discuss kiya)
+FizzBuzz
+Deep clone an object (bina JSON.parse/stringify ke)
+Debounce/throttle function likhna from scratch
+Find the largest/smallest number in array without built-in methods
+Reverse a string/array without built-in reverse()
+Count occurrences of each character in a string
+Implement Array.prototype.map or reduce khud se (polyfill likhna) */
