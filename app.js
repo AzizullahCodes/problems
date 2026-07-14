@@ -1262,32 +1262,41 @@ sum = 10 + 5
 final = 15 */
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 63 =========================================
+return unique array
 ======================================= Answer =====================================*/
-let arr = [1,2,2,3,4,5,6,4];
-console.log(arr)
-let newArr = [];
-let a = arr[0];
+// let arr = [1,2,2,3,4,5,6,4];
+// console.log(arr)
+// let newArr = [];
+// for(let i = 0;i < arr.length;i++){
+//    if(!newArr.includes(arr[i])){
+//     newArr.push(arr[i])
+//    }
+// }
+// console.log(newArr)
+/*==================================== Question No 64 =========================================
+find largest number without using any method
+======================================= Answer =====================================*/
+// let arr = [5,1,2,55,33,21];
+// let bigNum = arr[0];
+// for(let i = 0;i < arr.length;i++){
+//     if(arr[i] > bigNum){
+//         bigNum = arr[i]
+//     }
+// }
+// console.log(bigNum)
+
+/*==================================== Question No 65 =========================================
+find smallest number without using any built in method
+======================================= Answer =====================================*/
+let arr = [5,1,2,55,-1,-55,33,21];
+let smallestNum = arr[0];
 for(let i = 0;i < arr.length;i++){
-   if(!newArr.includes(arr[i])){
-    newArr.push(arr[i])
-   }
+    if(arr[i] < smallestNum){
+        smallestNum = arr[i]
+    }
 }
-console.log(newArr)
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
-
-
-
-
-
-/*==================================== Question No 1 =========================================
-
-======================================= Answer =====================================*/
-
+console.log(smallestNum)
 
 
 
