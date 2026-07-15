@@ -1289,51 +1289,94 @@ find largest number without using any method
 /*==================================== Question No 65 =========================================
 find smallest number without using any built in method
 ======================================= Answer =====================================*/
-let arr = [5,1,2,55,-1,-55,33,21];
-let smallestNum = arr[0];
-for(let i = 0;i < arr.length;i++){
-    if(arr[i] < smallestNum){
-        smallestNum = arr[i]
-    }
-}
-console.log(smallestNum)
+// let arr = [5,1,2,55,-1,-55,33,21];
+// let smallestNum = arr[0];
+// for(let i = 0;i < arr.length;i++){
+//     if(arr[i] < smallestNum){
+//         smallestNum = arr[i]
+//     }
+// }
+// console.log(smallestNum)
 
 
 
 
 
 
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 65 =========================================
+concatination of two array with for loop(dont use any method like .concat() or spread operator)
 ======================================= Answer =====================================*/
 
+// let a = [1,2,3];
+// let b = [4,5,6];
+// let ans = [];
+// for(let i = 0;i < a.length;i++){
+//     console.log(a[i])
+//     if(!ans.includes(a[i])){
+//         ans.push(a[i])
+//     }
+//     for(let j = 0;j < b.length;j++){
+//         // console.log(b[i]) 
+//         console.log(a[i])
+//         if(!ans.includes(b[j])){
+//             ans.push(b[j])
+            
+//         }
+//     }
+// }
+// console.log('ans ', ans)
+// let result = ans.sort((a,b)=>a -b);
+// console.log(result)
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 66 =========================================
+let num = ['apple','mango','apple','banana','orange','apple'] 
+give output = ['apple','apple,'apple]
+without using filter do it with for loop
 ======================================= Answer =====================================*/
+// let num = ['apple','mango','apple','banana','orange','apple']
+ 
+// let arr = [];
+// for(let i = 0;i < num.length;i++){
+//     console.log(num[i])
+//     if(num[i] == 'apple'){
+//         arr.push(num[i])
+//     }
+// }
+// console.log(arr)
 
 
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 67 =========================================
+let num = ['apple','mango','apple','banana','orange','apple']
+give apple without using find method
 ======================================= Answer =====================================*/
+// let num = ['apple','mango','apple','banana','orange','apple']
+// console.log(num.includes('apple'))
+// console.log(num.indexOf('apple'))
+// console.log(num[0])
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 68 =========================================
+let num = ['apple','mango','apple','banana','orange','apple']
+output = ['apple','apple','apple']
+do it with for each
 ======================================= Answer =====================================*/
-
+// let num = ['apple','mango','apple','banana','orange','apple']
+// let n = []
+// num.forEach((item)=>{
+//     if(item == 'apple'){
+//         n.push(item)
+//     }
+// })
+// console.log(n)
 
 
 
