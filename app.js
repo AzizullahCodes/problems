@@ -1381,10 +1381,20 @@ do it with for each
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 69 =========================================
+let names = ['shakeel','haider','nabeel','aqeel','saqib'];
 
+output = ['shakeel', 'nabeel', 'aqeel']
 ======================================= Answer =====================================*/
-
+// let names = ['shakeel','haider','nabeel','aqeel','saqib'];
+// let required = [];
+// for(let item of names){
+//     // console.log(item) 
+//     if(item.endsWith('l')){
+//         required.push(item)
+//     }
+// }
+// console.log(required)
 
 
 
