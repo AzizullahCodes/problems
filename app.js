@@ -1400,11 +1400,23 @@ output = ['shakeel', 'nabeel', 'aqeel']
 
 
 /*==================================== Question No 1 =========================================
-https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
+product of array except self
 ======================================= Answer =====================================*/
 
+const arr = [2,4,6,8];
+ let result = []
+let filtered;
+for (let skipIndex = -1; skipIndex < arr.length; skipIndex++) {
+ filtered = arr.filter((val, index) => index !== skipIndex);
+//   console.log(`Skip index ${skipIndex}:`, filtered);
+  let product = filtered.reduce((prev,next)=>{
+    return(prev * next)
+  })
+console.log(product)
+result.push(product)
+}
 
-
+console.log(result)
 /*==================================== Question No 1 =========================================
 
 ======================================= Answer =====================================*/
