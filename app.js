@@ -1399,65 +1399,112 @@ output = ['shakeel', 'nabeel', 'aqeel']
 
 
 
-/*==================================== Question No 1 =========================================
+/*==================================== Question No 70 =========================================
 product of array except self
 ======================================= Answer =====================================*/
 
-const arr = [2,4,6,8];
- let result = []
-let filtered;
-for (let skipIndex = -1; skipIndex < arr.length; skipIndex++) {
- filtered = arr.filter((val, index) => index !== skipIndex);
-//   console.log(`Skip index ${skipIndex}:`, filtered);
-  let product = filtered.reduce((prev,next)=>{
-    return(prev * next)
-  })
-console.log(product)
-result.push(product)
-}
+// const arr = [2,4,6,8];
+//  let result = []
+// let filtered;
+// for (let skipIndex = -1; skipIndex < arr.length; skipIndex++) {
+//  filtered = arr.filter((val, index) => index !== skipIndex);
+// //   console.log(`Skip index ${skipIndex}:`, filtered);
+//   let product = filtered.reduce((prev,next)=>{
+//     return(prev * next)
+//   })
+// console.log(product)
+// result.push(product)
+// }
 
-console.log(result)
-/*==================================== Question No 1 =========================================
-
+// console.log(result)
+/*==================================== Question No 71 =========================================
+find second largest number in array 
 ======================================= Answer =====================================*/
+// let num = [3,1,22,4,5,66,44];
+// let arr = num.sort((a,b)=> a-b)
+// console.log(arr)
+// let req = arr.length-2;
+// console.log(req)
+// console.log(arr[req])
+// let greate = num[0]
+// for(let i = 0;i < num.length;i++){
+//     console.log(num[i])
+//     if(num[i] > greate){
+//         greate = num[i]
+//     }
+// }
+// console.log(greate)
+// let ind = num.indexOf(greate);
+// console.log(ind)
+// console.log(arr[ind-1])
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 72 =========================================
+find duplicate value in an array
 ======================================= Answer =====================================*/
+// let fruits = ['apple','grapes', 'apple','banana','apple','mango','grapes','guava']
+// let duplicate = ''
+// for(let i = 0;i < fruits.length;i++){
+
+//     for(let j = i + 1;j < fruits.length;j++){
+//         if(fruits[i] === fruits[j]){
+//             duplicate = fruits[i]
+//         }
+//     }
+// }
+// console.log(duplicate)
 
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 72 =========================================
+remove duplicates from an array 
 ======================================= Answer =====================================*/
+// let fruits = ['apple','grapes', 'apple','banana','apple','mango','grapes','guava']
+// let unique = [];
+// for(let i = 0;i < fruits.length;i++){
+//     if(!unique.includes(fruits[i])){
+//         unique.push(fruits[i])
+//     }
+// }
+// console.log(unique)
 
 
 
 
 
 
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 73 =========================================
+find even and odd numbers in array 
 ======================================= Answer =====================================*/
+// let num = [1,2,3,4,5,6,7]
+// let even = [];
+// let odd = []
+// for(let i = 0;i < num.length;i++){
+//     if(num[i] % 2 === 0){
+//         even.push(num[i])
+//     }
+//     else{
+//         odd.push(num[i])
+//     }
+// }
+// console.log(even);
+// console.log(odd)
 
 
 
-
-
-
-/*==================================== Question No 1 =========================================
-
+/*==================================== Question No 74 =========================================
+sum all numbers of array 
 ======================================= Answer =====================================*/
-
-
+// let num = [1,3,5];
+// let sum = 0;
+// for(let i = 0;i < num.length;i++){
+//     sum = sum + num[i]
+// }
+// console.log(sum)
 
 
 
